@@ -44,5 +44,5 @@ Simply open `index.html` in your browser.
 
 \## Author
 
-\[Amirreza Hesari](https://github.com/amirreza-hesari1387)
+\[[Amirreza Hesari](https://github.com/amirreza-hesari1387)]
 
