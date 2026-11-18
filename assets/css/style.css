@@ -1,13 +1,16 @@
+/* start fonts */
 @font-face {
         font-family: "irishGover";
         src: url("/assets/fonts/IrishGrover-Regular.ttf")
     }
+/* end fonts */
 
+/* start style tags */
 body{
     text-align: center;
 
 }
-
+/* start style registersection */
 .registersection{
     background-color: white;
     border-radius: 15px;
@@ -19,6 +22,7 @@ body{
     text-align: justify;
     
 }
+/* sign up tags */
 .registersection h1 {
     font-family: "irishGover", sans-serif;
     font-size: 30px;
@@ -30,6 +34,12 @@ body{
 .registersection span{
     color: red;
 }
+/* end style sign up tags */
+
+
+/* end style registersection */
+
+/* start style formsection */
 .formsection{
     text-align: center;
 }
@@ -48,6 +58,9 @@ body{
     padding: 0 1px 0 1px;
     margin-top: 10px;
 }
+/* end style formsection */
+
+/* start style input */
 input{
     width: 90%;
     border: none;
@@ -55,6 +68,10 @@ input{
     height: 30px;
     border-radius: 100px;
 }
+/* end style input */
+
+
+/* start style check box */
 .checkboxsection {
     text-align: justify;
 }
@@ -66,6 +83,9 @@ input{
     width: 10px;
     vertical-align: sub;
 }
+/* end style check box */
+
+/* start style button */
 button{
     width: 50%;
     height: 30px;
@@ -81,3 +101,24 @@ button:focus{
     box-shadow: 0 0 10px black inset;
     background-color: #DBFF00;
 }
+/* end style button */
+
+
+/* start Ressponsiveness */
+@media (max-width:412px) {
+    .registersection{
+    width: 100%   ;
+    padding: 0 20px 0 20px;
+    
+}
+}
+@media (max-width:712px) {
+    .registersection{
+    width: 100%   ;
+    padding: 0 20px 0 20px;
+    
+}
+}
+
+
+/* end Ressponsiveness */
