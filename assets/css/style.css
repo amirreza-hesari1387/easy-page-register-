@@ -1,0 +1,83 @@
+@font-face {
+        font-family: "irishGover";
+        src: url("/assets/fonts/IrishGrover-Regular.ttf")
+    }
+
+body{
+    text-align: center;
+
+}
+
+.registersection{
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 25%;
+    height: 500px;
+    display: inline-block;
+    padding: 20px;
+    text-align: justify;
+    
+}
+.registersection h1 {
+    font-family: "irishGover", sans-serif;
+    font-size: 30px;
+    display:inline-block;
+    background: linear-gradient(to right ,#faff00,#00e0ff);
+    background-clip: text;
+    color: rgba(0, 0, 0, 0.184);
+}
+.registersection span{
+    color: red;
+}
+.formsection{
+    text-align: center;
+}
+.formsection .halfinput{
+    width: 45%;
+    text-align: justify;
+    display: inline-block;
+    border-radios: 15px;
+    padding: 0 1px 0 1px;
+}
+.formsection .lineinput{
+    text-align: justify;
+    display: inline-block;
+    width: 90%;
+    border-radios: 15px;
+    padding: 0 1px 0 1px;
+    margin-top: 10px;
+}
+input{
+    width: 90%;
+    border: none;
+    background: linear-gradient(to right ,#ff8A00,#DBFF00);
+    height: 30px;
+    border-radius: 100px;
+}
+.checkboxsection {
+    text-align: justify;
+}
+.checkboxsection label {
+    vertical-align: super;
+    font-size: 10px;
+}
+.checkboxsection input{
+    width: 10px;
+    vertical-align: sub;
+}
+button{
+    width: 50%;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #ff8A00;
+    cursor: pointer;
+    transition:all 1s;
+}
+button:hover{
+    box-shadow: 0 0 10px black;
+}
+button:focus{
+    box-shadow: 0 0 10px black inset;
+    background-color: #DBFF00;
+}
